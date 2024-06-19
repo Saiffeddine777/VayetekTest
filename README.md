@@ -47,7 +47,7 @@
     ```
 
 2. Pour démarrer le frontend, naviguez vers le répertoire du frontend et exécutez la commande suivante :
-
+ 
     ```bash
     npm run dev
     ```
