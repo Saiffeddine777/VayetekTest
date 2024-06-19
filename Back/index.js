@@ -22,7 +22,7 @@ const port = 4000;
 app.use(express.json())
 app.use(cors())
 app.use("/api/games", Games)
-
+ 
 io.on('connection',(socket)=>{
     chat(io,socket)
 })
