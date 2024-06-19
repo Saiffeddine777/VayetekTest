@@ -25,7 +25,7 @@
 5. Dans cette base de données, créez les deux tables suivantes :
 
     ```sql
-    CREATE TABLE messages (
+    CREATE TABLE messages ( 
         id SERIAL PRIMARY KEY,
         nickname VARCHAR(255) NOT NULL,
         message TEXT NOT NULL
